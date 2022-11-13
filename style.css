@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #8D9EFF;
+    
+    
+}
+.profile p {
+
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+.middle-container p {
+    color: #442c70;
+
+}
+
+h1 {
+
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+   margin: 50px auto 0px;
+   font-weight: bold;
+   color: #B9E0FF;
+   line-height: 2;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #DEF5E5;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+h3,
+a {
+    color: white;
+    
+}
+
+
+.top-container {
+    padding-top: 3%;
+    background-image: url(images/sky.png);
+    background-size: cover;
+    height: 650px;
+
+}
+.bottom-container {
+    background-color: #8D72E1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottom-container p {
+    margin-bottom: 0;
+}
+
+.contact-me {
+    margin-bottom: 30px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto ;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+
+/*                    */
+.top-cloud {
+    position: relative;
+    left: 14%;
+    
+}
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+}
+.star {
+    position: absolute;
+    left: 30.5%;
+    top: 0%;
+}
+
+hr {
+   border-style: dotted none none;
+   width: 8%;
+   border-width: 8px;
+   border-color: #CFF5E7;
+   margin-top: 30px;
+}
+
+.pic {
+    width: 25%; 
+    float: left;
+    margin-right: 30px;
+}
+.picc {
+    width: 25%; 
+    float: right;
+    margin-left: 30px;
+}
+.picman {
+    width: 15%;
+    margin-top: 30px
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin: auto;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 10px;
+transform : translateY(-7px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+
+/****************************/
+
+.fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+
+
+
+
+
+
